@@ -1,0 +1,80 @@
+erDiagram
+    CATEGORIES ||--o{ BOOKS : "category_id"
+    PUBLISHERS ||--o{ BOOKS : "publisher_id"
+    BOOKS ||--o{ BOOK_AUTHORS : "book_id"
+    AUTHORS ||--o{ BOOK_AUTHORS : "author_id"
+    BOOKS ||--o{ BOOK_COPIES : "book_id"
+    BRANCHES ||--o{ BOOK_COPIES : "branch_id"
+    USERS ||--o{ BORROWINGS : "user_id"
+    BOOK_COPIES ||--o{ BORROWINGS : "copy_id"
+    USERS ||--o{ RESERVATIONS : "user_id"
+    BOOKS ||--o{ RESERVATIONS : "book_id"
+    BORROWINGS ||--o| FINES : "borrowing_id"
+    CATEGORIES {
+        NUMBER category_id PK
+        VARCHAR2 category_name UK
+    }
+    PUBLISHERS {
+        NUMBER publisher_id PK
+        VARCHAR2 publisher_name UK
+    }
+    AUTHORS {
+        NUMBER author_id PK
+        VARCHAR2 author_name
+    }
+    USERS {
+        NUMBER user_id PK
+        VARCHAR2 full_name
+        VARCHAR2 email UK
+        VARCHAR2 user_type
+        VARCHAR2 department
+        VARCHAR2 phone
+    }
+    BRANCHES {
+        NUMBER branch_id PK
+        VARCHAR2 branch_name UK
+        VARCHAR2 location
+    }
+    BOOKS {
+        NUMBER book_id PK
+        VARCHAR2 isbn UK
+        VARCHAR2 title
+        NUMBER category_id FK
+        NUMBER publisher_id FK
+        NUMBER publication_year
+    }
+    BOOK_AUTHORS {
+        NUMBER book_id PK,FK
+        NUMBER author_id PK,FK
+    }
+    BOOK_COPIES {
+        NUMBER copy_id PK
+        NUMBER book_id FK
+        NUMBER branch_id FK
+        VARCHAR2 copy_status
+    }
+    BORROWINGS {
+        NUMBER borrowing_id PK
+        NUMBER user_id FK
+        NUMBER copy_id FK
+        DATE borrow_date
+        DATE due_date
+        DATE return_date
+        VARCHAR2 return_condition
+        DATE lost_date
+    }
+    RESERVATIONS {
+        NUMBER reservation_id PK
+        NUMBER user_id FK
+        NUMBER book_id FK
+        DATE reservation_date
+        VARCHAR2 status
+    }
+    FINES {
+        NUMBER fine_id PK
+        NUMBER borrowing_id FK,UK
+        NUMBER amount
+        DATE assessed_date
+        VARCHAR2 fine_status
+        DATE payment_date
+    }

@@ -4,7 +4,7 @@ University Library Management and Resource Utilization System — a five-person 
 
 ## Current status
 
-**Scaffold only:** folders and empty placeholder files have been created. Database design, SQL, data, tests, and reports are still to be written. Person 1 (you) is the Database Architect / Designer. This project structure covers the database assignment; no application frontend or backend is planned here.
+**Person 1 design baseline completed (17 October 2026), pending team review.** Requirements, schema design, data dictionary and ER diagram sources/exports are now available in `docs/`. SQL implementation, sample data, tests and the other members’ deliverables remain pending.
 
 ## Project scope
 
@@ -47,7 +47,7 @@ BiblioTech/
 └── submission/                       All five members: final deliverables
 ```
 
-All files apart from this README are intentionally empty. Output folders contain empty `.gitkeep` files so Git preserves them. Person 1 will later add an editable ER diagram source and `docs/diagrams/er-diagram.png`; an invalid empty PNG has not been created.
+Person 1 documentation and diagrams are populated. Other work files remain placeholders. Output folders use `.gitkeep` to preserve the structure. See `docs/diagrams/README.md` for diagram formats.
 
 ## Five-person responsibility split
 

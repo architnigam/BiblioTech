@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3400">
+<rect x="0" y="0" width="2400" height="3400" fill="white"/>
+<text x="1200" y="45" text-anchor="middle" font-family="Arial" font-size="34">BiblioTech — Chen ER diagram</text>
+<text x="1200" y="82" text-anchor="middle" font-family="Arial" font-size="22">Rectangles: entities | Ovals: attributes | Underline: primary key | Diamonds: relationships</text>
+<line x1="400" y1="290" x2="115" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="181" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">category_id</text>
+<line x1="400" y1="290" x2="305" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="305" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="305" y="181" text-anchor="middle" font-family="Arial" font-size="17">category_name</text>
+<rect x="270" y="265" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="400" y="297" text-anchor="middle" font-family="Arial" font-size="20">CATEGORIES</text>
+<line x1="1200" y1="290" x2="915" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="915" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="915" y="181" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">publisher_id</text>
+<line x1="1200" y1="290" x2="1105" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1105" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1105" y="181" text-anchor="middle" font-family="Arial" font-size="17">publisher_name</text>
+<rect x="1070" y="265" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1200" y="297" text-anchor="middle" font-family="Arial" font-size="20">PUBLISHERS</text>
+<line x1="2000" y1="290" x2="1715" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1715" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1715" y="181" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">author_id</text>
+<line x1="2000" y1="290" x2="1905" y2="175" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1905" cy="175" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1905" y="181" text-anchor="middle" font-family="Arial" font-size="17">author_name</text>
+<rect x="1870" y="265" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2000" y="297" text-anchor="middle" font-family="Arial" font-size="20">AUTHORS</text>
+<line x1="400" y1="760" x2="115" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="651" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">user_id</text>
+<line x1="400" y1="760" x2="305" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="305" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="305" y="651" text-anchor="middle" font-family="Arial" font-size="17">full_name</text>
+<line x1="400" y1="760" x2="495" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="495" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="495" y="651" text-anchor="middle" font-family="Arial" font-size="17">email</text>
+<line x1="400" y1="760" x2="685" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="685" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="685" y="651" text-anchor="middle" font-family="Arial" font-size="17">user_type</text>
+<line x1="400" y1="760" x2="115" y2="875" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="875" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="881" text-anchor="middle" font-family="Arial" font-size="17">department</text>
+<line x1="400" y1="760" x2="305" y2="875" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="305" cy="875" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="305" y="881" text-anchor="middle" font-family="Arial" font-size="17">phone</text>
+<rect x="270" y="735" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="400" y="767" text-anchor="middle" font-family="Arial" font-size="20">USERS</text>
+<line x1="1200" y1="760" x2="915" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="915" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="915" y="651" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">branch_id</text>
+<line x1="1200" y1="760" x2="1105" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1105" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1105" y="651" text-anchor="middle" font-family="Arial" font-size="17">branch_name</text>
+<line x1="1200" y1="760" x2="1295" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1295" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1295" y="651" text-anchor="middle" font-family="Arial" font-size="17">location</text>
+<rect x="1070" y="735" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1200" y="767" text-anchor="middle" font-family="Arial" font-size="20">BRANCHES</text>
+<line x1="2000" y1="760" x2="1715" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1715" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1715" y="651" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">book_id</text>
+<line x1="2000" y1="760" x2="1905" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1905" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1905" y="651" text-anchor="middle" font-family="Arial" font-size="17">isbn</text>
+<line x1="2000" y1="760" x2="2095" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2095" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2095" y="651" text-anchor="middle" font-family="Arial" font-size="17">title</text>
+<line x1="2000" y1="760" x2="2285" y2="645" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2285" cy="645" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2285" y="651" text-anchor="middle" font-family="Arial" font-size="17">category_id</text>
+<line x1="2000" y1="760" x2="1715" y2="875" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1715" cy="875" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1715" y="881" text-anchor="middle" font-family="Arial" font-size="17">publisher_id</text>
+<line x1="2000" y1="760" x2="1905" y2="875" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1905" cy="875" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1905" y="881" text-anchor="middle" font-family="Arial" font-size="17">publication_year</text>
+<rect x="1870" y="735" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2000" y="767" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<line x1="400" y1="1230" x2="115" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="1121" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">book_id</text>
+<line x1="400" y1="1230" x2="305" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="305" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="305" y="1121" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">author_id</text>
+<rect x="270" y="1205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="400" y="1237" text-anchor="middle" font-family="Arial" font-size="20">BOOK_AUTHORS</text>
+<line x1="1200" y1="1230" x2="915" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="915" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="915" y="1121" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">copy_id</text>
+<line x1="1200" y1="1230" x2="1105" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1105" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1105" y="1121" text-anchor="middle" font-family="Arial" font-size="17">book_id</text>
+<line x1="1200" y1="1230" x2="1295" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1295" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1295" y="1121" text-anchor="middle" font-family="Arial" font-size="17">branch_id</text>
+<line x1="1200" y1="1230" x2="1485" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1485" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1485" y="1121" text-anchor="middle" font-family="Arial" font-size="17">copy_status</text>
+<rect x="1070" y="1205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1200" y="1237" text-anchor="middle" font-family="Arial" font-size="20">BOOK_COPIES</text>
+<line x1="2000" y1="1230" x2="1715" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1715" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1715" y="1121" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">borrowing_id</text>
+<line x1="2000" y1="1230" x2="1905" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1905" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1905" y="1121" text-anchor="middle" font-family="Arial" font-size="17">user_id</text>
+<line x1="2000" y1="1230" x2="2095" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2095" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2095" y="1121" text-anchor="middle" font-family="Arial" font-size="17">copy_id</text>
+<line x1="2000" y1="1230" x2="2285" y2="1115" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2285" cy="1115" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2285" y="1121" text-anchor="middle" font-family="Arial" font-size="17">borrow_date</text>
+<line x1="2000" y1="1230" x2="1715" y2="1345" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1715" cy="1345" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1715" y="1351" text-anchor="middle" font-family="Arial" font-size="17">due_date</text>
+<line x1="2000" y1="1230" x2="1905" y2="1345" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1905" cy="1345" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1905" y="1351" text-anchor="middle" font-family="Arial" font-size="17">return_date</text>
+<line x1="2000" y1="1230" x2="2095" y2="1345" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2095" cy="1345" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2095" y="1351" text-anchor="middle" font-family="Arial" font-size="17">return_condition</text>
+<line x1="2000" y1="1230" x2="2285" y2="1345" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="2285" cy="1345" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="2285" y="1351" text-anchor="middle" font-family="Arial" font-size="17">lost_date</text>
+<rect x="1870" y="1205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2000" y="1237" text-anchor="middle" font-family="Arial" font-size="20">BORROWINGS</text>
+<line x1="400" y1="1700" x2="115" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="1591" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">reservation_id</text>
+<line x1="400" y1="1700" x2="305" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="305" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="305" y="1591" text-anchor="middle" font-family="Arial" font-size="17">user_id</text>
+<line x1="400" y1="1700" x2="495" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="495" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="495" y="1591" text-anchor="middle" font-family="Arial" font-size="17">book_id</text>
+<line x1="400" y1="1700" x2="685" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="685" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="685" y="1591" text-anchor="middle" font-family="Arial" font-size="17">reservation_date</text>
+<line x1="400" y1="1700" x2="115" y2="1815" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="115" cy="1815" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="115" y="1821" text-anchor="middle" font-family="Arial" font-size="17">status</text>
+<rect x="270" y="1675" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="400" y="1707" text-anchor="middle" font-family="Arial" font-size="20">RESERVATIONS</text>
+<line x1="1200" y1="1700" x2="915" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="915" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="915" y="1591" text-anchor="middle" font-family="Arial" font-size="17" text-decoration="underline">fine_id</text>
+<line x1="1200" y1="1700" x2="1105" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1105" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1105" y="1591" text-anchor="middle" font-family="Arial" font-size="17">borrowing_id</text>
+<line x1="1200" y1="1700" x2="1295" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1295" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1295" y="1591" text-anchor="middle" font-family="Arial" font-size="17">amount</text>
+<line x1="1200" y1="1700" x2="1485" y2="1585" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1485" cy="1585" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1485" y="1591" text-anchor="middle" font-family="Arial" font-size="17">assessed_date</text>
+<line x1="1200" y1="1700" x2="915" y2="1815" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="915" cy="1815" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="915" y="1821" text-anchor="middle" font-family="Arial" font-size="17">fine_status</text>
+<line x1="1200" y1="1700" x2="1105" y2="1815" stroke="#394b3c" stroke-width="2"/>
+<ellipse cx="1105" cy="1815" rx="91" ry="28" fill="#edf5e6" stroke="#394b3c"/>
+<text x="1105" y="1821" text-anchor="middle" font-family="Arial" font-size="17">payment_date</text>
+<rect x="1070" y="1675" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1200" y="1707" text-anchor="middle" font-family="Arial" font-size="20">FINES</text>
+<text x="1200" y="2110" text-anchor="middle" font-family="Arial" font-size="28">Relationships and participation (same entities repeated below for clarity)</text>
+<line x1="250" y1="2230" x2="485" y2="2230" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="2230" x2="950" y2="2230" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,2230 600,2185 715,2230 600,2275" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="2236" text-anchor="middle" font-family="Arial" font-size="19">classifies</text>
+<rect x="80" y="2205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="2237" text-anchor="middle" font-family="Arial" font-size="20">CATEGORIES</text>
+<rect x="860" y="2205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="2237" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<text x="400" y="2215" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="2215" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="1450" y1="2230" x2="1685" y2="2230" stroke="#394b3c" stroke-width="2"/>
+<line x1="1915" y1="2230" x2="2150" y2="2230" stroke="#394b3c" stroke-width="2"/>
+<polygon points="1685,2230 1800,2185 1915,2230 1800,2275" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="1800" y="2236" text-anchor="middle" font-family="Arial" font-size="19">publishes</text>
+<rect x="1280" y="2205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1410" y="2237" text-anchor="middle" font-family="Arial" font-size="20">PUBLISHERS</text>
+<rect x="2060" y="2205" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2190" y="2237" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<text x="1600" y="2215" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="2000" y="2215" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="250" y1="2415" x2="485" y2="2415" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="2415" x2="950" y2="2415" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,2415 600,2370 715,2415 600,2460" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="2421" text-anchor="middle" font-family="Arial" font-size="19">contributes</text>
+<rect x="80" y="2390" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="2422" text-anchor="middle" font-family="Arial" font-size="20">AUTHORS</text>
+<rect x="860" y="2390" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="2422" text-anchor="middle" font-family="Arial" font-size="20">BOOK_AUTHORS</text>
+<text x="400" y="2400" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="2400" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="1450" y1="2415" x2="1685" y2="2415" stroke="#394b3c" stroke-width="2"/>
+<line x1="1915" y1="2415" x2="2150" y2="2415" stroke="#394b3c" stroke-width="2"/>
+<polygon points="1685,2415 1800,2370 1915,2415 1800,2460" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="1800" y="2421" text-anchor="middle" font-family="Arial" font-size="19">has author</text>
+<rect x="1280" y="2390" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1410" y="2422" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<rect x="2060" y="2390" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2190" y="2422" text-anchor="middle" font-family="Arial" font-size="20">BOOK_AUTHORS</text>
+<text x="1600" y="2400" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="2000" y="2400" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="250" y1="2600" x2="485" y2="2600" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="2600" x2="950" y2="2600" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,2600 600,2555 715,2600 600,2645" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="2606" text-anchor="middle" font-family="Arial" font-size="19">has copy</text>
+<rect x="80" y="2575" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="2607" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<rect x="860" y="2575" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="2607" text-anchor="middle" font-family="Arial" font-size="20">BOOK_COPIES</text>
+<text x="400" y="2585" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="2585" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="1450" y1="2600" x2="1685" y2="2600" stroke="#394b3c" stroke-width="2"/>
+<line x1="1915" y1="2600" x2="2150" y2="2600" stroke="#394b3c" stroke-width="2"/>
+<polygon points="1685,2600 1800,2555 1915,2600 1800,2645" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="1800" y="2606" text-anchor="middle" font-family="Arial" font-size="19">owns</text>
+<rect x="1280" y="2575" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1410" y="2607" text-anchor="middle" font-family="Arial" font-size="20">BRANCHES</text>
+<rect x="2060" y="2575" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2190" y="2607" text-anchor="middle" font-family="Arial" font-size="20">BOOK_COPIES</text>
+<text x="1600" y="2585" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="2000" y="2585" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="250" y1="2785" x2="485" y2="2785" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="2785" x2="950" y2="2785" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,2785 600,2740 715,2785 600,2830" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="2791" text-anchor="middle" font-family="Arial" font-size="19">borrows</text>
+<rect x="80" y="2760" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="2792" text-anchor="middle" font-family="Arial" font-size="20">USERS</text>
+<rect x="860" y="2760" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="2792" text-anchor="middle" font-family="Arial" font-size="20">BORROWINGS</text>
+<text x="400" y="2770" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="2770" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="1450" y1="2785" x2="1685" y2="2785" stroke="#394b3c" stroke-width="2"/>
+<line x1="1915" y1="2785" x2="2150" y2="2785" stroke="#394b3c" stroke-width="2"/>
+<polygon points="1685,2785 1800,2740 1915,2785 1800,2830" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="1800" y="2791" text-anchor="middle" font-family="Arial" font-size="19">loaned in</text>
+<rect x="1280" y="2760" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1410" y="2792" text-anchor="middle" font-family="Arial" font-size="20">BOOK_COPIES</text>
+<rect x="2060" y="2760" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2190" y="2792" text-anchor="middle" font-family="Arial" font-size="20">BORROWINGS</text>
+<text x="1600" y="2770" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="2000" y="2770" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="250" y1="2970" x2="485" y2="2970" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="2970" x2="950" y2="2970" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,2970 600,2925 715,2970 600,3015" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="2976" text-anchor="middle" font-family="Arial" font-size="19">requests</text>
+<rect x="80" y="2945" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="2977" text-anchor="middle" font-family="Arial" font-size="20">USERS</text>
+<rect x="860" y="2945" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="2977" text-anchor="middle" font-family="Arial" font-size="20">RESERVATIONS</text>
+<text x="400" y="2955" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="2955" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="1450" y1="2970" x2="1685" y2="2970" stroke="#394b3c" stroke-width="2"/>
+<line x1="1915" y1="2970" x2="2150" y2="2970" stroke="#394b3c" stroke-width="2"/>
+<polygon points="1685,2970 1800,2925 1915,2970 1800,3015" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="1800" y="2976" text-anchor="middle" font-family="Arial" font-size="19">reserved in</text>
+<rect x="1280" y="2945" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="1410" y="2977" text-anchor="middle" font-family="Arial" font-size="20">BOOKS</text>
+<rect x="2060" y="2945" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="2190" y="2977" text-anchor="middle" font-family="Arial" font-size="20">RESERVATIONS</text>
+<text x="1600" y="2955" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="2000" y="2955" text-anchor="middle" font-family="Arial" font-size="20">0..N</text>
+<line x1="250" y1="3155" x2="485" y2="3155" stroke="#394b3c" stroke-width="2"/>
+<line x1="715" y1="3155" x2="950" y2="3155" stroke="#394b3c" stroke-width="2"/>
+<polygon points="485,3155 600,3110 715,3155 600,3200" fill="#edf5e6" stroke="#394b3c" stroke-width="2"/>
+<text x="600" y="3161" text-anchor="middle" font-family="Arial" font-size="19">incurs</text>
+<rect x="80" y="3130" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="210" y="3162" text-anchor="middle" font-family="Arial" font-size="20">BORROWINGS</text>
+<rect x="860" y="3130" width="260" height="50" fill="#dbead3" stroke="#394b3c" stroke-width="2"/>
+<text x="990" y="3162" text-anchor="middle" font-family="Arial" font-size="20">FINES</text>
+<text x="400" y="3140" text-anchor="middle" font-family="Arial" font-size="20">1</text>
+<text x="800" y="3140" text-anchor="middle" font-family="Arial" font-size="20">0..1</text>
+<text x="1200" y="3350" text-anchor="middle" font-family="Arial" font-size="22">BOOK_AUTHORS is an associative entity; both underlined attributes form its composite primary key.</text>
+</svg>
